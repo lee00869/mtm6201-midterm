@@ -1,0 +1,50 @@
+/* **** FASHION Styles **** */
+
+html {
+    font-family: poppin;
+    
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+}
+
+/* Container width*/
+.container1{
+    max-width: 1920px;
+}
+.container2{
+    max-width: 1720px;
+}
+
+/* Nav */
+.main-nav{
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    flex-grow: 2;
+}
+
+.nav-list>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    margin: 0 1em;
+    font-weight: 500;
+}
+
+.nav-list>li>a:hover, .nav-list>li>a:focus, .nav-list>li>.current{
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+}
