@@ -12,6 +12,7 @@ body {
 /* Container width*/
 .container1{
     max-width: 1920px;
+    margin: 0 auto;
 }
 .container2{
     max-width: 1720px;
@@ -68,24 +69,37 @@ p{
     font-weight: 500;
 }
 
-.nav-list>li>a:hover, .nav-list>li>a:focus, .nav-list>li>.current{
+.nav-list>li>.current{
     background-color: black;
     color: white;
+    border-radius: 1em;
+}
+
+.nav-list>li>a:hover, .nav-list>li>a:focus{
+    background-color: #EBD96B;
+    color: black;
     border-radius: 1em;
 }
 
 /* header images with texts */
 .header-text{
     background-color: #F4F6F5;
-    width: 1720px;
-    
+    max-width: 1720px;
     border-radius: 59px;
     display: flex;
+    padding: 3.5em;
+    margin: 0 auto;
+  
 }
 
 .beautiful-girl{
     width: 871px;
     height: 784px;
+    /* align-self: flex-end; */
+    /* position: absolute;
+    top: 205px;
+    left: 950px; */
+   
 }
 
 .explore-h1{
@@ -93,8 +107,9 @@ p{
     text-transform: uppercase;
     line-height: 120px;
     margin-left: 100px;
-    margin-top: 100px;
 }
+
+
 
 .influential{
     margin-left: 100px;
@@ -122,16 +137,47 @@ p{
     
 }
 
+.star1{
+    position: absolute;
+    top: 232px;
+    left: 900px;
+}
+
+.star2{
+    position: absolute;
+    top: 245px;
+    left: 1200px;
+}
+
+.star3{
+    position: absolute;
+    top: 925px;
+    left: 1000px;
+}
+
+.star4{
+    position: absolute;
+    top: 800px;
+    left: 1400px;
+}
+
+
+
 /* Brand section */
 .brand{
-    width: 1920px;
-    padding: 2em;
+    max-width: 1920px;
+    margin: 0 auto;
     margin-top: 2em;
     height: 6em;
+    
+}
+
+.brands{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #EBD96B;
+    padding: 2em;
 }
 
 /* Cards */
