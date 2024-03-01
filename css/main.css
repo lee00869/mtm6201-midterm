@@ -54,7 +54,7 @@ p{
 
 .main-nav>.nav-list>a{
     font-size: 22px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .logo{
@@ -163,12 +163,11 @@ p{
 
 
 
-/* Brand section */
+/* Brand */
 .brand{
     max-width: 1920px;
     margin: 0 auto;
     margin-top: 2em;
-    height: 6em;
     
 }
 
@@ -195,4 +194,55 @@ p{
 
 .card>h3{
     margin-bottom: -0.15rem;
+}
+
+/* Payday */
+.payday{
+    margin-top: 10em;
+    max-width: 1920px;
+    display: flex;
+    background-color: #EBD96B;
+}
+
+/* .sale{
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+.yellow-girl{
+    max-width: 990px;
+}
+
+.payday-heading{
+    text-transform: uppercase;
+    width: 600px;
+    height: 285px;
+    margin: 0;
+}
+
+.payday-text{
+    width: 670px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.valid{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.date{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.terms{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.payday-shop{
+    margin-top: 36px;
 }
