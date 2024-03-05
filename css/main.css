@@ -143,7 +143,20 @@ p{
 }
 
 .shop:active{
-    
+    animation: shopnow 1s ease-in 0.5s 1 forwards ;
+}
+
+@keyframes shopnow{
+    0%{
+
+    }
+    25%{
+        transform: rotate(180deg);
+    }
+    50%{
+
+    }
+
 }
 
 .yellow-black{
