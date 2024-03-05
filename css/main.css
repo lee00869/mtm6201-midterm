@@ -7,6 +7,9 @@ html {
 
 body {
     line-height: 1.5;
+    max-width: 1920px;
+    margin: 0 auto;
+
 }
 
 /* Container width */
@@ -85,10 +88,12 @@ p{
 /* header images with texts */
 .header-text{
     background-color: #F4F6F5;
+    position: relative;
     max-width: 1720px;
+    height: 852px;
     border-radius: 59px;
     display: flex;
-    padding: 3.5em;
+    /* padding: 3.5em; */
     margin: 0 auto;
   
 }
@@ -96,11 +101,10 @@ p{
 .beautiful-girl{
     width: 871px;
     height: 784px;
-    /* align-self: flex-end; */
-    /* position: absolute;
-    top: 205px;
-    left: 950px; */
-   
+    position: absolute;
+    bottom: 0px;
+    left: 800px;
+    overflow: hidden;
 }
 
 .explore-h1{
@@ -128,6 +132,18 @@ p{
     font-size: 30px;
     padding: 1rem;
     border-radius: 10px;
+    transition: 1s;
+}
+
+.shop:hover{
+    transform: scale(1.2) translateX(50px);
+    transition: transform 1s;
+    background-color: #E5C643;
+    color: black;
+}
+
+.shop:active{
+    
 }
 
 .yellow-black{
@@ -139,27 +155,35 @@ p{
 }
 
 .star1{
+    width: 58px;
+    height: 56.02px;
     position: absolute;
-    top: 232px;
-    left: 900px;
+    top: 100px;
+    left: 750px;
 }
 
 .star2{
+    width: 58px;
+    height: 56.02px;
     position: absolute;
-    top: 245px;
-    left: 1200px;
+    top: 150px;
+    left: 1400px;
 }
 
 .star3{
+    width: 58px;
+    height: 56.02px;
     position: absolute;
-    top: 925px;
-    left: 1000px;
+    top: 775px;
+    left: 850px;
 }
 
 .star4{
+    width: 58px;
+    height: 56.02px;
     position: absolute;
-    top: 800px;
-    left: 1400px;
+    top: 700px;
+    left: 1600px;
 }
 
 
@@ -201,18 +225,21 @@ p{
 .payday{
     margin-top: 10em;
     max-width: 1920px;
-    display: flex;
-    background-color: #EBD96B;
+    display: grid;
+    grid-template-rows: 968px;
+    grid-template-columns: 991.24px 932.94px;
 }
 
-/* .sale{
-    display: flex;
-    flex-direction: column;
-    
-} */
-
 .yellow-girl{
-    max-width: 990px;
+    width: 991.42px;
+    height: 968px;
+}
+
+.background-yellow{
+    background-image: url(../images/yellow-img.png);
+    background-size: cover;
+    width: 932.94px;
+    height: 968px;
 }
 
 .payday-heading{
@@ -246,6 +273,43 @@ p{
 
 .payday-shop{
     margin-top: 36px;
+}
+
+.star5{
+    width: 76.14px;
+    height: 76.05px;
+    position: absolute;
+    top: 2377.37px;
+    left: 132.37px;
+    transform: rotate(26.95deg);
+}
+
+.star6{
+    width: 76.14px;
+    height: 76.05px;
+    position: absolute;
+    top: 2977.37px;
+    left: 132.37px;
+    transform: rotate(26.95deg);
+}
+
+.star7{
+    color: white;
+    width: 76.14px;
+    height: 76.05px;
+    position: absolute;
+    top: 2577.37px;
+    left: 132.37px;
+    transform: rotate(26.95deg);
+}
+
+.star8{
+    width: 76.14px;
+    height: 76.05px;
+    position: absolute;
+    top: 2777.37px;
+    left: 132.37px;
+    transform: rotate(26.95deg);
 }
 
 /* Young's favourite */
@@ -315,7 +379,7 @@ p{
     background-color: #7F7F7F;
     border-radius: 50%;
     position: absolute;
-    top: 4500px;
+    top: 4300px;
     left: 1065px;
     transform: translate(-50%, -50%);
     /* display: flex;
@@ -329,7 +393,7 @@ p{
     background-color: #7F7F7F;
     border-radius: 50%;
     position: absolute;
-    top: 5000px;
+    top: 4800px;
     left: 1685px;
     transform: translate(-50%, -50%);
 }
@@ -341,7 +405,7 @@ p{
     background-color: #EBD96B;
     border-radius: 50%;
     position: absolute;
-    top: 4500px;
+    top: 4300px;
     left: 1630px;
     transform: translate(-50%, -50%);
 }
@@ -352,8 +416,8 @@ p{
     background-color: #EBD96B;
     border-radius: 50%;
     position: absolute;
-    top: 5000px;
-    left: 1031px;
+    top: 4900px;
+    left: 1000px;
     transform: translate(-50%, -50%);
 }
 
@@ -412,7 +476,7 @@ p{
     width: 966px;
     height: 124px;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: -8px;
 }
     
 .join>h3{
@@ -472,11 +536,12 @@ p{
 }
 
 .fashion-footer>h2{
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: 400;
     width: 415px;
     height: 80px;
-}
+}     d
 
 .fashion-footer{
     display: flex;
@@ -523,14 +588,31 @@ p{
     text-decoration: none;
     color:#8E8E8E;
     font-size: 24px;
+    line-height: 40px;
     font-weight: 400;
 }
 
-.left, .center, .right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+.left{
+    display: grid;
+    grid-template-columns: 120px;
+    grid-template-rows: repeat(5, 28px);
+    gap: 20px;
+    height: 273px;
+}
+
+.center{
+    display: grid;
+    grid-template-columns: 177px;
+    grid-template-rows: repeat(5, 28px);
+    gap: 20px;
+    height: 273px;
+}
+
+.right{
+    display: grid;
+    grid-template-columns: 217px;
+    grid-template-rows: repeat(3, 28px);
+    gap: 20px;
     height: 273px;
 }
 
@@ -539,10 +621,11 @@ p{
 }
 
 .footer-nav{
+    font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
     width: 890px;
     height: 273px;
 }
