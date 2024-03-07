@@ -252,6 +252,7 @@ p{
     background-size: cover;
     width: 932.94px;
     height: 968px;
+    margin-left: -1px;
 }
 
 .payday-heading{
@@ -293,16 +294,16 @@ p{
     position: absolute;
     top: 2377.37px;
     left: 132.37px;
-    transform: rotate(26.95deg);
+    transform: rotate(-26.95deg);
 }
 
 .star6{
     width: 76.14px;
     height: 76.05px;
     position: absolute;
-    top: 2977.37px;
-    left: 132.37px;
-    transform: rotate(26.95deg);
+    top: 2400.37px;
+    left: 750px;
+    transform: rotate(-26.95deg);
 }
 
 .star7{
@@ -310,18 +311,18 @@ p{
     width: 76.14px;
     height: 76.05px;
     position: absolute;
-    top: 2577.37px;
-    left: 132.37px;
-    transform: rotate(26.95deg);
+    top: 2810px;
+    left: 180px;
+    transform: rotate(-26.95deg);
 }
 
 .star8{
     width: 76.14px;
     height: 76.05px;
     position: absolute;
-    top: 2777.37px;
-    left: 132.37px;
-    transform: rotate(26.95deg);
+    top: 2900px;
+    left: 812px;
+    transform: rotate(-26.95deg);
 }
 
 /* Young's favourite */
@@ -538,6 +539,11 @@ p{
     color: #EBD96B;
 }
 
+input:focus{
+    font-size: 30px;
+    
+}
+
 /* Footer */
 .site-footer{
     background-color: black;
@@ -716,12 +722,15 @@ textarea{
     justify-content: space-evenly;
 }
 
-
 div>label{
     font-size: 32px;
     display: block;
     margin-bottom: 5px;
     width: 800px;
+}
+
+div>input:focus, div>textarea:focus{
+    background-color: #E5C643;
 }
 
 .girls{
