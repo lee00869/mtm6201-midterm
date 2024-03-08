@@ -47,6 +47,7 @@ p{
 .main-nav{
     margin: 0 auto;
     padding: 1em;
+    width: 1720px;
 }
 
 .nav-list{
@@ -54,11 +55,18 @@ p{
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .main-nav>.nav-list>a{
     font-size: 22px;
     font-weight: 500;
+    
+}
+
+.nav-colour{
+    border: none;
+
 }
 
 .logo{
@@ -741,4 +749,11 @@ div>input:focus, div>textarea:focus{
 form>h1{
     margin-top: 0;
     margin-bottom: 0;
+}
+
+/* About Page CSS */
+.cards2{
+    display: grid;
+    grid-template-rows: repeat(3, 300px);
+    grid-template-columns: 300px;
 }
