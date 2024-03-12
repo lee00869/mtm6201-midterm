@@ -107,11 +107,11 @@ p {
     overflow: hidden;
 }
 
-.star-place{
+.star-place {
     position: relative;
 }
 
-.explore{
+.explore {
     display: block;
 
 }
@@ -193,10 +193,10 @@ p {
     gap: 1em;
     background-color: #EBD96B;
     /* padding: 1rem; */
-    
+
 }
 
-.brands>img{
+.brands>img {
     margin: auto;
     width: 100%;
     height: auto;
@@ -209,7 +209,7 @@ p {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     gap: 2em;
-    
+
 }
 
 .card>a {
@@ -219,10 +219,10 @@ p {
     color: #7F7F7F;
 }
 
-.card{
+.card {
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .card>h3 {
@@ -231,7 +231,7 @@ p {
     font-size: 36px;
 }
 
-.card>img{
+.card>img {
     display: block;
     width: 100%;
     height: auto;
@@ -239,34 +239,35 @@ p {
     margin-right: auto;
 }
 
-.arrow{
+.arrow {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.arrow>i{
+.arrow>i {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.arrow-text{
+.arrow-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.arrow-text>a{
+.arrow-text>a {
     text-decoration: none;
     color: #7F7F7F;
     font-size: 14px;
 }
 
-.arrow-text>h3{
+.arrow-text>h3 {
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
 }
+
 /* .fa-arrow-right{
     width: 32px;
     height: auto;
@@ -331,7 +332,7 @@ p {
     border-top-right-radius: 20px;
 }
 
-.star-place{
+.star-place {
     position: relative;
 }
 
@@ -381,7 +382,7 @@ p {
     color: #7F7F7F;
 } */
 
-.favour>img{
+.favour>img {
     width: 100%;
 }
 
@@ -435,19 +436,19 @@ p {
 }
 
 .gray-dot1 {
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     background-color: #7F7F7F;
     border-radius: 50%;
     position: absolute;
     top: 15%;
-    left: 10%;
+    left: 9%;
     transform: translate(-50%, -50%);
 }
 
 .gray-dot2 {
-    width: 17px;
-    height: 17px;
+    width: 8px;
+    height: 8px;
     background-color: #7F7F7F;
     border-radius: 50%;
     position: absolute;
@@ -457,19 +458,19 @@ p {
 }
 
 .yellow-dot1 {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     background-color: #EBD96B;
     border-radius: 50%;
     position: absolute;
     top: 15%;
-    left: 85%;
+    left: 95%;
     transform: translate(-50%, -50%);
 }
 
 .yellow-dot2 {
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
     background-color: #EBD96B;
     border-radius: 50%;
     position: absolute;
@@ -478,9 +479,9 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.border3>img{
+/* .border3>img{
     width: 100%;
-}
+} */
 
 .border3 {
     position: absolute;
@@ -510,7 +511,7 @@ p {
 }
 
 .mobile-app>img {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: block;
     z-index: 1;
@@ -641,28 +642,33 @@ input:focus {
 .facebook,
 .instagram,
 .x {
-    max-width: 140px;
-    max-height: 140px;
+    width: 70px;
+    height: 70px;
     background-color: #EBD96B;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+
 }
 
-.facebook>img, .instagram>img, .x>img{
-    width: 100%;
+.facebook>a>img,
+.instagram>a>img,
+.x>a>img {
+    width: auto;
+    height: 80%;
 }
 
-.in{
-    max-width: 140px;
-    max-height: 140px;
-    height: auto;
+.in {
+    /* width: 70px;
+    height: 70px; */
     background-color: #EBD96B;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -701,11 +707,15 @@ input:focus {
 }
 
 .icon {
-    width: 90%;
-    display: flex;
+    width: 100%;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 30px;
 }
 
 .footer-flex {
@@ -776,7 +786,7 @@ input:focus {
     margin-top: 1em;
 }
 
-@media screen and (min-width:550px) {
+@media screen and (min-width:500px) and (max-width: 1050px) {
 
     html {
         font-family: "Poppins", sans-serif;
@@ -784,19 +794,19 @@ input:focus {
     }
 
     body {
-        line-height: 1.5;
-        max-width: 1920px;
+        line-height: 1;
+        max-width: 1050px;
         margin: 0 auto;
     }
 
     /* Container width */
     .container1 {
-        max-width: 1920px;
+        max-width: 1050px;
         margin: 0 auto;
     }
 
     .container2 {
-        max-width: 1720px;
+        max-width: 900px;
         margin: 0 auto;
     }
 
@@ -824,22 +834,17 @@ input:focus {
     /* Nav */
     .main-nav {
         margin: 0 auto;
-        padding: 1em;
-        width: 1720px;
+        /* padding: 1em; */
+        max-width: 900px;
     }
 
     .nav-list {
         display: flex;
+        flex-direction: row;
         list-style: none;
         justify-content: space-evenly;
         align-items: center;
-
-    }
-
-    .main-nav>.nav-list>a {
-        font-size: 22px;
-        font-weight: 500;
-
+        max-width: 900px;
     }
 
     .nav-colour {
@@ -848,14 +853,27 @@ input:focus {
     }
 
     .logo {
-        flex-grow: 2;
+        /* flex-grow: 2; */
+    }
+
+    .nav-list a,
+    .nav-list :link,
+    .nav-list :visited {
+        display: block;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
     }
 
     .nav-list>li>a {
         text-decoration: none;
         color: black;
-        padding: 1em;
-        margin: 0 1em;
+        padding: 0.5rem;
+        /* margin: 0 1rem; */
+        font-size: 18px;
         font-weight: 500;
 
     }
@@ -877,35 +895,43 @@ input:focus {
     .header-text {
         background-color: #F4F6F5;
         position: relative;
-        max-width: 1720px;
+        max-width: 900px;
         height: 852px;
         border-radius: 59px;
         display: flex;
         /* padding: 3.5em; */
         margin: 0 auto;
+    }
+
+    .explore {
+        width: 50%;
 
     }
 
     .beautiful-girl {
-        /* width: 871px;
-    height: 784px; */
+        width: 100%;
+        min-height: auto;
+        margin-left: auto;
+        margin-right: auto;
         position: absolute;
         bottom: 0px;
-        left: 800px;
         overflow: hidden;
+        z-index: 22;
     }
 
     .explore-h1 {
-        max-width: 474px;
+        max-width: 450px;
         text-transform: uppercase;
         line-height: 120px;
-        margin-left: 100px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
 
     .influential {
-        margin-left: 100px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: -50px;
     }
 
@@ -918,7 +944,7 @@ input:focus {
         background-color: black;
         color: white;
         font-size: 30px;
-        padding: 1rem;
+        padding: 0.5rem;
         border-radius: 10px;
         transition: 1s;
         max-width: 200px;
@@ -947,10 +973,10 @@ input:focus {
     }
 
     .yellow-black {
+        padding: 1rem;
         display: grid;
-        grid-template-columns: 220px 220px;
-        margin-left: 100px;
-        width: 474px;
+        grid-template-columns: 1fr 1fr;
+        max-width: 450px;
 
     }
 
@@ -986,22 +1012,40 @@ input:focus {
         left: 1600px;
     }
 
-
-
     /* Brand */
-    .brand {
-        max-width: 1920px;
-        margin: 0 auto;
-        margin-top: 2em;
-
+    .container3{
+        width: 1050px;
     }
 
     .brands {
-        display: flex;
-        justify-content: space-evenly;
+        /* display: flex;
+        justify-content: space-around;
         align-items: center;
         background-color: #EBD96B;
-        padding: 2em;
+        max-width: 1050px;
+        width: 100%;
+        margin-top: 2em;
+        margin-left: 0;
+        margin-right: 0; */
+
+        /* padding: 1rem; */
+        margin-top: 2em;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+        gap: 1em;
+        background-color: #EBD96B;
+        /* padding: 1rem; */
+    }
+
+
+
+    .brands>img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
     }
 
     /* Cards */
@@ -1036,7 +1080,7 @@ input:focus {
     }
 
     .background-yellow {
-        background-color:#EBD96B ;
+        background-color: #EBD96B;
         background-size: cover;
         width: 932.94px;
         height: 968px;
@@ -1502,18 +1546,23 @@ input:focus {
 .container2 {
     max-width: 450px;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 div input {
-    width: 100%;
+    width: 98%;
     height: 50px;
     font-size: 32px;
     margin-bottom: 0.8em;
     /* margin-bottom: 50px; */
 }
 
-textarea {
+form>div {
     width: 100%;
+}
+
+textarea {
+    width: 98%;
     height: 200px;
     font-size: 32px;
     margin-bottom: 0.8em;
@@ -1535,7 +1584,7 @@ textarea {
 }
 
 .contact>form {
-    max-width: 750px;
+    max-width: 450px;
     margin-left: auto;
     margin-right: auto;
     margin-left: auto;
@@ -1563,7 +1612,7 @@ form>h1 {
     margin-bottom: 0;
 }
 
-@media screen and (min-width:760px) and (max-width: 1050px){
+@media screen and (min-width:500px) and (max-width: 1050px) {
     .container1 {
         max-width: 1050px;
         margin: 0 auto;
@@ -1581,21 +1630,21 @@ form>h1 {
         margin-bottom: 0.8em;
         /* margin-bottom: 50px; */
     }
-    
+
     textarea {
         width: 100%;
         height: 200px;
         font-size: 32px;
         margin-bottom: 0.8em;
     }
-    
+
     .send {
         background-color: black;
         color: white;
         display: block;
         width: 200px;
     }
-    
+
     .contact {
         margin: 20px auto;
         display: flex;
@@ -1605,7 +1654,7 @@ form>h1 {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .contact>form {
         max-width: 900px;
         margin-left: auto;
@@ -1616,25 +1665,25 @@ form>h1 {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     div>label {
         font-size: 32px;
         display: block;
         margin-bottom: 5px;
     }
-    
+
     div>input:focus,
     div>textarea:focus {
         background-color: #E5C643;
     }
-    
+
     form>h1 {
         margin-top: 0;
         margin-bottom: 0;
     }
 }
 
-@media screen and (min-width:1051px){
+@media screen and (min-width:1051px) {
     .container1 {
         max-width: 1920px;
         margin: 0 auto;
@@ -1652,21 +1701,21 @@ form>h1 {
         margin-bottom: 0.8em;
         /* margin-bottom: 50px; */
     }
-    
+
     textarea {
         width: 100%;
         height: 200px;
         font-size: 32px;
         margin-bottom: 0.8em;
     }
-    
+
     .send {
         background-color: black;
         color: white;
         display: block;
         width: 200px;
     }
-    
+
     .contact {
         margin: 20px auto;
         display: flex;
@@ -1676,7 +1725,7 @@ form>h1 {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .contact>form {
         max-width: 1200px;
         margin-left: auto;
@@ -1687,18 +1736,18 @@ form>h1 {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     div>label {
         font-size: 32px;
         display: block;
         margin-bottom: 5px;
     }
-    
+
     div>input:focus,
     div>textarea:focus {
         background-color: #E5C643;
     }
-    
+
     form>h1 {
         margin-top: 0;
         margin-bottom: 0;
@@ -1715,19 +1764,19 @@ form>h1 {
     gap: 2em;
 }
 
-.card2>img{
+.card2>img {
     width: 90%;
     height: auto;
     border-radius: 20px;
     margin-top: 2rem;
 }
 
-.card2>h2{
+.card2>h2 {
     text-align: center;
     margin: 1rem;
 }
 
-.card2>h3{
+.card2>h3 {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -1735,7 +1784,7 @@ form>h1 {
 
 }
 
-.card2{
+.card2 {
     background-color: #EBD96B;
     border-radius: 10px;
     width: 100%;
@@ -1746,7 +1795,7 @@ form>h1 {
     align-items: center;
 }
 
-@media screen and (min-width:760px) and (max-width: 1050px){
+@media screen and (min-width:760px) and (max-width: 1050px) {
     html {
         font-family: "Poppins", sans-serif;
         box-sizing: border-box;
@@ -1772,12 +1821,12 @@ form>h1 {
 
     /* Font size */
     h1 {
-        font-size: 72px;
+        font-size: 64px;
         font-weight: 900;
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 42px;
         font-weight: 700;
     }
 
@@ -1797,30 +1846,30 @@ form>h1 {
         grid-template-rows: 1fr;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
-        
+
     }
-    
-    .card2>img{
-        width: 90%;
+
+    .card2>img {
+        width: 85%;
         height: auto;
         border-radius: 20px;
         margin-top: 1.5rem;
     }
-    
-    .card2>h2{
+
+    .card2>h2 {
         text-align: center;
         margin: 1rem;
     }
-    
-    .card2>h3{
+
+    .card2>h3 {
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 1.5rem;
         /* margin-top: 0; */
-    
+
     }
-    
-    .card2{
+
+    .card2 {
         background-color: #EBD96B;
         border-radius: 10px;
         width: 100%;
@@ -1831,12 +1880,12 @@ form>h1 {
         align-items: center;
     }
 
-    .card2:hover{
+    .card2:hover {
         box-shadow: 5px 5px 10px 0px rgba(40, 40, 40, 0.5);
     }
 }
 
-@media screen and (min-width:1051px){
+@media screen and (min-width:1051px) {
     html {
         font-family: "Poppins", sans-serif;
         box-sizing: border-box;
@@ -1887,30 +1936,30 @@ form>h1 {
         grid-template-rows: 1fr;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
-        
+
     }
-    
-    .card2>img{
+
+    .card2>img {
         width: 90%;
         height: auto;
         border-radius: 20px;
         margin-top: 1.5rem;
     }
-    
-    .card2>h2{
+
+    .card2>h2 {
         text-align: center;
         margin: 1rem;
     }
-    
-    .card2>h3{
+
+    .card2>h3 {
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 1.5rem;
         /* margin-top: 0; */
-    
+
     }
-    
-    .card2{
+
+    .card2 {
         background-color: #EBD96B;
         border-radius: 10px;
         width: 100%;
@@ -1921,8 +1970,7 @@ form>h1 {
         align-items: center;
     }
 
-    .card2:hover{
+    .card2:hover {
         box-shadow: 5px 5px 10px 0px rgba(40, 40, 40, 0.5);
     }
 }
-
