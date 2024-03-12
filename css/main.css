@@ -7,44 +7,46 @@ html {
 
 body {
     line-height: 1.5;
+    margin: 0;
 }
 
 /* Container width */
 .container1 {
-    max-width: 760px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
 .container2 {
-    max-width: 700px;
+    max-width: 450px;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 
 /* Font size */
 h1 {
-    font-size: 52px;
+    font-size: 64px;
     font-weight: 900;
 }
 
 h2 {
     font-size: 42px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /* Nav */
 .main-nav {
     margin: 0 auto;
-    padding: 1em;
+    max-width: 450px;
 }
 
 .nav-list {
@@ -90,13 +92,13 @@ p {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 800px 430px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .beautiful-girl {
-    max-width: 100%;
+    width: 100%;
     min-height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -105,9 +107,13 @@ p {
     overflow: hidden;
 }
 
+.star-place{
+    position: relative;
+}
+
 .explore{
     display: block;
-    position: relative;
+
 }
 
 .explore-h1 {
@@ -152,27 +158,27 @@ p {
 
 .star1 {
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 5%;
 }
 
 .star2 {
     position: absolute;
-    top: 55%;
+    top: 10%;
     left: 75%;
 }
 
 .star3 {
     position: absolute;
-    top: 70%;
-    left: 10%;
+    top: 90%;
+    left: 3%;
     z-index: 1;
 }
 
 .star4 {
     position: absolute;
     top: 80%;
-    left: 90%;
+    left: 92%;
 }
 
 
@@ -226,6 +232,7 @@ p {
 }
 
 .card>img{
+    display: block;
     width: 100%;
     height: auto;
     margin-left: auto;
@@ -253,12 +260,12 @@ p {
 .arrow-text>a{
     text-decoration: none;
     color: #7F7F7F;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .arrow-text>h3{
-    margin-top: -0.15rem;
-    margin-bottom: -0.15rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
 }
 /* .fa-arrow-right{
     width: 32px;
@@ -362,16 +369,17 @@ p {
     gap: 3em;
 }
 
-.favour>h3 {
-    margin-bottom: -0.15em;
+/* .favour>h3 {
+    margin-bottom: -0.08rem;
+    margin-top: -0.08rem;
 }
 
 .favour>a {
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 500;
     text-decoration: none;
     color: #7F7F7F;
-}
+} */
 
 .favour>img{
     width: 100%;
@@ -383,7 +391,7 @@ p {
     margin-bottom: 1em;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 400px 850px;
+    grid-template-rows: 400px 750px;
     gap: 2em;
 }
 
@@ -406,12 +414,12 @@ p {
 
 .apple,
 .google {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
 .store {
-    max-width: 420px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -475,42 +483,37 @@ p {
 }
 
 .border3 {
-    max-width: 440px;
-    max-height: 440px;
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    width: 80%;
+    height: 45.5%;
     background-color: white;
     border: 1.73px solid #EFECEB;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .border2 {
-    max-width: 530px;
-    max-height: 530px;
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    width: 88%;
+    height: 48.5%;
     background-color: white;
     border: 2.11px solid #EFECEB;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .border1 {
-    max-width: 630px;
-    max-height: 630px;
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    width: 96%;
+    height: 55%;
     background-color: white;
     border: 2.5px solid #EFECEB;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.mobile-app>img {
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 1;
 }
 
 /* Join Community */
@@ -559,7 +562,7 @@ p {
 .input-email {
     background-color: white;
     width: 80%;
-    height: auto;
+    height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -570,10 +573,12 @@ p {
 
 .input-email>input {
     border: none;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
-    width: 269px;
+    width: 200px;
     height: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .send {
@@ -708,8 +713,8 @@ input:focus {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    padding-left: 1em;
+    /* width: 95%; */
+    padding: 1rem;
     /* height: 800pxpx; */
     margin-left: auto;
     margin-right: auto;
@@ -718,7 +723,7 @@ input:focus {
 .gray-colour {
     text-decoration: none;
     color: #8E8E8E;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 40px;
     font-weight: 400;
 }
@@ -726,7 +731,7 @@ input:focus {
 .active-colour {
     text-decoration: none;
     color: #D9D9D9;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 40px;
     font-weight: 400;
 }
@@ -742,24 +747,24 @@ input:focus {
     display: grid;
     grid-template-columns: 100px;
     grid-template-rows: repeat(5, 28px);
-    gap: 20px;
-    height: 273px;
+    gap: 8px;
+    height: 200px;
 }
 
 .center {
     display: grid;
     grid-template-columns: 177px;
     grid-template-rows: repeat(5, 28px);
-    gap: 20px;
-    height: 273px;
+    gap: 8px;
+    height: 200px;
 }
 
 .right {
     display: grid;
     grid-template-columns: 217px;
     grid-template-rows: repeat(3, 28px);
-    gap: 20px;
-    height: 273px;
+    gap: 8px;
+    height: 200px;
 }
 
 .footer-nav {
@@ -767,11 +772,11 @@ input:focus {
     font-family: "Roboto", sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 200px;
     margin-top: 1em;
 }
 
-@media screen and (min-width:760px) {
+@media screen and (min-width:550px) {
 
     html {
         font-family: "Poppins", sans-serif;
@@ -1490,12 +1495,12 @@ input:focus {
 
 /* Contact Page CSS */
 .container1 {
-    max-width: 760px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
 .container2 {
-    max-width: 700px;
+    max-width: 450px;
     margin: 0 auto;
 }
 
@@ -1549,7 +1554,8 @@ div>label {
 
 div>input:focus,
 div>textarea:focus {
-    background-color: #E5C643;
+    box-shadow: 0 0 0 5px #E5C643;
+    border-radius: 3px;
 }
 
 form>h1 {
