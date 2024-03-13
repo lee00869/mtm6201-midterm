@@ -21,10 +21,15 @@
 
 <body>
     <div class="container1">
-        <header>
+         <!-- Skip Links -->
+    <ul class="skip-links">
+        <li><a href="#nav">Skip to main nav</a></li>
+        <li><a href="#maincontent">Skip to main content</a></li>
+      </ul>
+        <header role="banner">
             <div class="container2">
                 <!-- navigation -->
-                <nav class="main-nav">
+                <nav class="main-nav" id="nav" role="navigation">
                     <ul class="nav-list">
                         <li class="logo"><a href="index.html"><img src="images/logo.png" alt="fashion"></a></li>
                         <li><a href="#">CATALOGUE</a></li>
@@ -38,12 +43,12 @@
 
         </header>
 
-        <main>
+        <main id="maincontent" role="main">
             <div class="container2">
-                <div class="contact">
+                <div class="contact" role="region">
                     
-                        <form method="post">
-                            <h1>Contact us</h1>
+                        <form method="post" role="form">
+                            <h1 role="heading">Contact us</h1>
                             <div>
                                 <label for="fullname">Full Name</label>
                                 <input type="text" id="fullname" name="fullname" required>
@@ -69,7 +74,7 @@
         </main>
 
         <!-- Footer -->
-        <footer class="site-footer">
+        <footer class="site-footer" role="contentinfo">
             <div class="footer-flex">
                 <div class="fashion-footer">
                     <h1>Fashion</h1>

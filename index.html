@@ -24,10 +24,14 @@
 
 <body>
     <div class="container1">
-        <header>
+        <ul class="skip-links">
+            <li><a href="#nav">Skip to main nav</a></li>
+            <li><a href="#maincontent">Skip to main content</a></li>
+          </ul>
+        <header role="banner">
             <div class="container2">
                 <!-- navigation -->
-                <nav class="main-nav">
+                <nav role="navigation" class="main-nav" id="nav">
                     <ul class="nav-list">
                         <li class="logo"><a href="index.html"><img src="images/logo.png" alt="fashion"></a></li>
                         <li><a href="#">CATALOGUE</a></li>
@@ -40,14 +44,14 @@
 
                 <section class="header-text">
                     <div class="explore">
-                        <h1 class="explore-h1">Let's explore unique clothes.</h1>
+                        <h1 role="heading" class="explore-h1">Let's explore unique clothes.</h1>
                         <h2 class="influential">Live for influential and innovation fashion!</h2>
                         <div class="yellow-black">
                             <img class="vector9" src="images/vector9.png" alt="yellow-vector">
                             <button class="shop" type="button">Shop now</button>
                         </div>
                     </div>
-                    <div class="star-place">
+                    <div class="star-places">
                         <span><img class="star1" srcset="
                             images/star-30_x_27.png 760w,
                             images/star-56_x_51.png 1920w" sizes="(max-width: 760px) 760px,
@@ -73,37 +77,35 @@
                 </section>
             </div>
             <!-- brands images -->
-            <div class="container3">
-                <div class="brands">
-                    <img srcset="
+            <div class="brands">
+                <img srcset="
                     images/hm-200_x_119.png 760w,
                     images/hm-119_x_71.png 1920w" sizes="(max-width: 760px) 760px,
                   (max-width: 1920px) 1920px" src="images/hm-119_x_71.png" alt="H&M">
-                    <img srcset="
+                <img srcset="
                     images/obey-200_x_70.png 760w,
                     images/obey-151_x_53.png 1920w" sizes="(max-width: 760px) 760px,
                   (max-width: 1920px) 1920px" src="images/obey-151_x_53.png" alt="Obey">
-                    <img srcset="
+                <img srcset="
                     images/shopify-200_x_71.png 760w,
                     images/shopify-177_x_63.png 1920w" sizes="(max-width: 760px) 760px,
                   (max-width: 1920px) 1920px" src="images/shopify-177_x_63.png" alt="shopify">
-                    <img srcset="
+                <img srcset="
                     images/lacoste-200_x_60.png 760w,
                     images/lacoste-236_x_71.png 1920w" sizes="(max-width: 760px) 760px,
                   (max-width: 1920px) 1920px" src="images/lacoste-236_x_71.png" alt="lacoste">
-                    <img srcset="
+                <img srcset="
                     images/levi-200_x_110.png 760w,
                     images/levi-128_x_71.png 1920w" sizes="(max-width: 760px) 760px,
                   (max-width: 1920px) 1920px" src="images/levi-128_x_71.png" alt="levi's">
-                    <img srcset="
+                <img srcset="
                     images/amazon-200_x_76.png 760w,
                     images/amazon-167_x_64.png 1920w" sizes="(max-width: 760px) 760px,
                   (max-width: 1920px) 1920px" src="images/amazon-167_x_64.png" alt="amazon">
-                </div>
             </div>
         </header>
 
-        <main>
+        <main role="main" id="maincontent">
             <div class="container2">
                 <h2>New Arrivals</h2>
                 <!-- cards -->
@@ -179,14 +181,15 @@
                           (max-width: 1920px) 1920px" src="images/star.png" alt="star"></span>
                 </div>
                 <div class="background-yellow">
-                    <h1 class="payday-heading">Payday Sale Now</h1>
-                    <h2 class="payday-text">Spend minimal $100 get 30% off voucher code for your next purchase</h2>
-                    <div class="valid">
-                        <span class="date">1 June - 10 June 2021</span>
-                        <span class="terms">*Terms & Conditions apply</span>
+                    <div class="payday-yellow-text">
+                        <h2 class="payday-heading">Payday Sale Now</h2>
+                        <h3 class="payday-text">Spend minimal $100 get 30% off voucher code for your next purchase</h3>
+                        <div class="valid">
+                            <span class="date">1 June - 10 June 2021</span>
+                            <span class="terms">*Terms & Conditions apply</span>
+                        </div>
+                        <button class="shop payday-shop">Shop Now</button>
                     </div>
-                    <button class="shop payday-shop">Shop Now</button>
-
                 </div>
             </div>
 
@@ -265,9 +268,9 @@
 
             <div class="join">
 
-                <h1>Join shopping community to get monthly promo</h1>
+                <h1 role="heading">Join shopping community to get monthly promo</h1>
                 <h2>Type your email down below and be young wild generation</h2>
-                <form action="search" class="input-group">
+                <form action="search" class="input-group" role="form">
                     <div class="input-email">
                         <input type="email" placeholder="Add your email here">
                         <button class="send" type="submit">Send</button>
@@ -281,7 +284,7 @@
         </main>
 
         <!-- Footer -->
-        <footer class="site-footer">
+        <footer role="contentinfo" class="site-footer">
             <div class="footer-flex">
                 <div class="fashion-footer">
                     <h1>Fashion</h1>

@@ -21,10 +21,15 @@
 
 <body>
     <div class="container1">
-        <header>
+        <!-- Skip Links -->
+    <ul class="skip-links">
+        <li><a href="#nav">Skip to main nav</a></li>
+        <li><a href="#maincontent">Skip to main content</a></li>
+      </ul>
+        <header role="banner">
             <div class="container2">
                 <!-- navigation -->
-                <nav class="main-nav">
+                <nav class="main-nav" id="nav" role="navigation">
                     <ul class="nav-list">
                         <li class="logo"><a href="index.html"><img src="images/logo.png" alt="fashion"></a></li>
                         <li><a href="#">CATALOGUE</a></li>
@@ -38,19 +43,19 @@
         
         </header>
 
-        <main>
-            <div class="container1">
-                <h1>Our Team</h1>
+        <main id="maincontent" role="main">
+            <div class="container2">
+                <h1 role="heading">Our Team</h1>
                 <!-- cards -->
                 <div class="cards2">
-                    <section class="card2">
+                    <section class="card2" >
                         <img srcset="images/ceo-700_x_682.png 760w,
                         images/ceo-300_x_292.png 1050w,
                         images/ceo-450_x_438.png 1920w"
                 sizes="(max-width: 760px) 760px,
                       (max-width: 1050px) 1050px,
                       (max-width: 1920px) 1920px" src="images/ceo-450_x_438.png" alt="ceo">
-                        <h2>Emily Thompson</h2>
+                        <h2>Emily Williams</h2>
                         <h3>Founder</h3>
                     </section>
 
@@ -73,7 +78,7 @@
                       (max-width: 1050px) 1050px,
                       (max-width: 1920px) 1920px" src="images/market.png" alt="marketing manager">
                         <h2>Olivia Bennett</h2>
-                        <h3>Marketing Manager</h3>
+                        <h3>Marketing</h3>
                     </section>
 
                 </div>
@@ -83,7 +88,7 @@
         </main>
 
         <!-- Footer -->
-        <footer class="site-footer">
+        <footer class="site-footer" role="contentinfo">
             <div class="footer-flex">
                 <div class="fashion-footer">
                     <h1>Fashion</h1>
