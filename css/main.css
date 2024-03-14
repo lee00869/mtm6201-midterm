@@ -174,8 +174,6 @@ p {
 .yellow-black {
     display: grid;
     gap: 2em;
-    /* grid-template-columns: 700px;
-    grid-template-rows: 70px 70px; */
     margin-top: -1em;
 }
 
@@ -236,7 +234,6 @@ p {
     grid-template-rows: 1fr 1fr;
     gap: 1em;
     background-color: #EBD96B;
-    /* padding: 1rem; */
 
 }
 
@@ -318,11 +315,6 @@ p {
     margin-bottom: 0.3rem;
 }
 
-/* .fa-arrow-right{
-    width: 32px;
-    height: auto;
-} */
-
 /* Payday */
 .payday {
     margin-top: 5em;
@@ -340,13 +332,13 @@ p {
 .background-yellow {
     max-width: 759px;
     margin-top: -7px;
-    /* border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px; */
     padding: 1em;
     position: relative;
     z-index: 0;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .payday-heading {
     text-transform: uppercase;
     display: block;
@@ -432,18 +424,6 @@ p {
     display: grid;
     gap: 3em;
 }
-
-/* .favour>h3 {
-    margin-bottom: -0.08rem;
-    margin-top: -0.08rem;
-}
-
-.favour>a {
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration: none;
-    color: #7F7F7F;
-} */
 
 .favour>img {
     width: 100%;
@@ -542,10 +522,6 @@ p {
     transform: translate(-50%, -50%);
 }
 
-/* .border3>img{
-    width: 100%;
-} */
-
 .border3 {
     position: absolute;
     width: 80%;
@@ -588,9 +564,6 @@ p {
     padding-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto */
 
 }
 
@@ -706,8 +679,6 @@ input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .facebook>a>img,
@@ -783,9 +754,7 @@ input:focus {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* width: 95%; */
     padding: 1rem;
-    /* height: 800pxpx; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -950,7 +919,7 @@ input:focus {
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 750px 800px;
+        grid-template-rows: 800px 800px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1010,8 +979,6 @@ input:focus {
     .yellow-black {
         display: grid;
         gap: 2em;
-        /* grid-template-columns: 700px;
-    grid-template-rows: 70px 70px; */
         margin-top: -1em;
     }
 
@@ -1072,12 +1039,6 @@ input:focus {
     }
 
     /* Cards */
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr;
-    }
-
     .card>a {
         font-size: 24px;
         font-weight: 500;
@@ -1094,9 +1055,10 @@ input:focus {
         margin-top: 3em;
         max-width: 1050px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        background-color: white;
+        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
+        background-color: #E5C643;
+        border-radius: 0;
     }
 
     .yellow-girl {
@@ -1105,23 +1067,11 @@ input:focus {
         border-radius: 0;
     }
 
-    .background-yellow {
-        width: 100%;
-        height: 100%;
-        background-color: #EBD96B;
-        background-size: cover;
-        margin-top: 0;
-        /* margin-bottom: -25px; */
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
     .payday-yellow-text {
         width: 80%;
         height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .payday-heading {
@@ -1130,10 +1080,10 @@ input:focus {
     }
 
     .rectangle3{
-        width: 75%;
+        width: 40%;
         position: absolute;
-        top: 10%;
-        left: 2%;
+        top: 5%;
+        left: 8%;
         z-index: -1;
     }
 
@@ -1449,40 +1399,6 @@ input:focus {
         height: 100%;
     }
 
-    /* 
-    .facebook,
-    .instagram,
-    .x {
-        width: 70px;
-        height: 70px;
-        background-color: #EBD96B;
-        border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-
-    }
-
-    .facebook>a>img,
-    .instagram>a>img,
-    .x>a>img {
-        width: auto;
-        height: 80%;
-    }
-
-    .in {
-        /* width: 70px;
-        height: 70px; */
-    /* background-color: #EBD96B;
-        border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    } */
-
-
     .in>a {
         font-family: "Roboto", sans-serif;
         text-decoration: none;
@@ -1491,7 +1407,7 @@ input:focus {
         font-weight: 700;
     }
 
-    */ .facebook:hover,
+    .facebook:hover,
     .instagram:hover,
     .x:hover,
     .in:hover {
@@ -1515,14 +1431,6 @@ input:focus {
             transform: scale(1.3) rotate(0);
         }
     }
-
-    /* .icon {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr;
-        gap: 30px;
-    } */
 
     .footer-flex {
         display: grid;
@@ -1641,7 +1549,6 @@ input:focus {
     /* Nav */
     .main-nav {
         margin: 0 auto;
-        /* padding: 1em; */
         max-width: 1720px;
     }
 
@@ -1674,7 +1581,6 @@ input:focus {
         text-decoration: none;
         color: black;
         padding: 1rem;
-        /* margin: 0 1rem; */
         font-size: 22px;
         font-weight: 500;
 
@@ -1712,7 +1618,6 @@ input:focus {
         border-radius: 59px;
         display: flex;
         justify-content: space-evenly;
-        /* padding: 3.5em; */
         margin: 0 auto;
     }
 
@@ -1891,10 +1796,6 @@ input:focus {
         font-size: 24px;
     }
 
-    /* .arrow>.arrow-text>a:hover{
-        color: #E5C643 !important;
-    } */
-
     /* Payday */
     .payday {
         margin-top: 3em;
@@ -1918,7 +1819,6 @@ input:focus {
         background-color: #EBD96B;
         background-size: cover;
         margin-top: 0;
-        /* margin-bottom: -25px; */
         padding: 0;
         display: flex;
         flex-direction: column;
@@ -1940,11 +1840,17 @@ input:focus {
         max-width: 600px;
     }
 
+    .payday-yellow-text {
+        width: 75%;
+        height: auto;
+        position: relative;
+    }
+
     .rectangle3{
         width: 550px;
         position: absolute;
-        top: 12%;
-        left: 8%;
+        top: -3%;
+        left: -5%;
         z-index: -1;
     }
 
@@ -2144,18 +2050,6 @@ input:focus {
         border-radius: 50%;
     }
 
-    /* Join Community */
-    /* .join {
-        background-color: #E5C643;
-        width: 1920px;
-        height: 623px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
     .join>h1 {
         font-size: 55px;
         font-weight: 900;
@@ -2220,7 +2114,7 @@ input:focus {
     input:focus {
         font-size: 30px;
 
-    } */
+    } 
 
     .join {
         background-color: #9c8000;
@@ -2506,7 +2400,6 @@ div input {
     height: 50px;
     font-size: 32px;
     margin-bottom: 0.8em;
-    /* margin-bottom: 50px; */
 }
 
 form>div {
@@ -2581,7 +2474,6 @@ form>h1 {
         height: 50px;
         font-size: 32px;
         margin-bottom: 0.8em;
-        /* margin-bottom: 50px; */
     }
 
     textarea {
@@ -2652,7 +2544,6 @@ form>h1 {
         height: 50px;
         font-size: 32px;
         margin-bottom: 0.8em;
-        /* margin-bottom: 50px; */
     }
 
     textarea {
@@ -2822,7 +2713,6 @@ form>h1 {
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 1.5rem;
-        /* margin-top: 0; */
 
     }
 
@@ -2913,7 +2803,6 @@ form>h1 {
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 1.5rem;
-        /* margin-top: 0; */
 
     }
 
