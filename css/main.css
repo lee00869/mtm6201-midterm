@@ -1853,6 +1853,7 @@ input:focus {
 
     .rectangle3{
         width: 550px;
+        /* width: 90%; */
         position: absolute;
         top: 0%;
         left: -5%;
@@ -2693,17 +2694,6 @@ form>h1 {
         font-size: 16px;
     }
 
-    .cards2 {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 900px;
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-
-    }
-
     .card2>img {
         width: 85%;
         height: auto;
@@ -2721,6 +2711,15 @@ form>h1 {
         margin-top: 1rem;
         margin-bottom: 1.5rem;
 
+    }
+
+    .cards2 {
+        margin-left: 0;
+        max-width: 900px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        gap: 2em;
     }
 
     .card2 {
