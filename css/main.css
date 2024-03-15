@@ -456,9 +456,13 @@ p {
     margin-bottom: 2em;
 }
 
+.store>a{
+    width: 50%;
+}
+
 .apple,
 .google {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
@@ -638,7 +642,7 @@ p {
 }
 
 input:focus {
-    font-size: 30px;
+    font-size: 19px;
     border: 2px solid #E5C643;
 }
 
@@ -1080,7 +1084,7 @@ input:focus {
     }
 
     .rectangle3{
-        width: 40%;
+        width: 48%;
         position: absolute;
         top: 5%;
         left: 8%;
@@ -1255,7 +1259,7 @@ input:focus {
     .border3 {
         position: absolute;
         width: 80%;
-        height: 45.5%;
+        height: 50%;
         background-color: white;
         border: 1.73px solid #EFECEB;
         border-radius: 50%;
@@ -1264,7 +1268,7 @@ input:focus {
     .border2 {
         position: absolute;
         width: 88%;
-        height: 48.5%;
+        height: 55%;
         background-color: white;
         border: 2.11px solid #EFECEB;
         border-radius: 50%;
@@ -1273,7 +1277,7 @@ input:focus {
     .border1 {
         position: absolute;
         width: 96%;
-        height: 55%;
+        height: 60%;
         background-color: white;
         border: 2.5px solid #EFECEB;
         border-radius: 50%;
@@ -1334,7 +1338,7 @@ input:focus {
         border: none;
         font-size: 24px;
         font-weight: 400;
-        width: 250px;
+        width: 75%;
         height: 25px;
         margin-top: auto;
         margin-bottom: auto;
@@ -2019,7 +2023,7 @@ input:focus {
     .border3 {
         position: absolute;
         width: 80%;
-        height: 45.5%;
+        height: 50%;
         background-color: white;
         border: 1.73px solid #EFECEB;
         border-radius: 50%;
@@ -2028,7 +2032,7 @@ input:focus {
     .border2 {
         position: absolute;
         width: 88%;
-        height: 48.5%;
+        height: 55%;
         background-color: white;
         border: 2.11px solid #EFECEB;
         border-radius: 50%;
@@ -2037,7 +2041,7 @@ input:focus {
     .border1 {
         position: absolute;
         width: 96%;
-        height: 55%;
+        height: 60%;
         background-color: white;
         border: 2.5px solid #EFECEB;
         border-radius: 50%;
@@ -2910,7 +2914,7 @@ input:focus {
     .border3 {
         position: absolute;
         width: 80%;
-        height: 45.5%;
+        height: 50%;
         background-color: white;
         border: 1.73px solid #EFECEB;
         border-radius: 50%;
@@ -2919,7 +2923,7 @@ input:focus {
     .border2 {
         position: absolute;
         width: 88%;
-        height: 48.5%;
+        height: 55%;
         background-color: white;
         border: 2.11px solid #EFECEB;
         border-radius: 50%;
@@ -2928,7 +2932,7 @@ input:focus {
     .border1 {
         position: absolute;
         width: 96%;
-        height: 55%;
+        height: 60.4%;
         background-color: white;
         border: 2.5px solid #EFECEB;
         border-radius: 50%;
