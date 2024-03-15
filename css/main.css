@@ -1190,9 +1190,13 @@ input:focus {
         margin-bottom: 2em;
     }
 
+    .store>a{
+        width: 50%;
+    }
+    
     .apple,
     .google {
-        width: 47%;
+        width: 100%;
         height: auto;
     }
 
@@ -1954,6 +1958,10 @@ input:focus {
         font-size: 24px;
     }
 
+    .store>a{
+        width: 50%;
+    }
+    
     .apple,
     .google {
         width: 100%;
@@ -2652,7 +2660,7 @@ input:focus {
     }
 
     .brands>img {
-        width: 60%;
+        width: 55%;
     }
 
     /* Cards */
@@ -2844,7 +2852,10 @@ input:focus {
         width: 70%;
         font-size: 24px;
     }
-
+    .store>a{
+        width: 50%;
+    }
+    
     .apple,
     .google {
         width: 100%;
