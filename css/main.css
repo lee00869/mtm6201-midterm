@@ -3548,7 +3548,7 @@ form>h1 {
     align-items: center;
 }
 
-@media screen and (min-width:500px) and (max-width: 1050px) {
+@media screen and (min-width:500px) and (max-width: 1250px) {
     html {
         font-family: "Poppins", sans-serif;
         box-sizing: border-box;
@@ -3562,12 +3562,12 @@ form>h1 {
 
     /* Container width */
     .container1 {
-        max-width: 1050px;
+        max-width: 1250px;
         margin: 0 auto;
     }
 
     .container2 {
-        max-width: 900px;
+        max-width: 1100px;
         margin: 0 auto;
         padding: 1rem;
     }
@@ -3614,7 +3614,7 @@ form>h1 {
 
     .cards2 {
         margin-left: 0;
-        max-width: 900px;
+        max-width: 1100px;
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: 1fr;
@@ -3637,7 +3637,7 @@ form>h1 {
     }
 }
 
-@media screen and (min-width:1051px) {
+@media screen and (min-width:1251px) {
     html {
         font-family: "Poppins", sans-serif;
         box-sizing: border-box;
