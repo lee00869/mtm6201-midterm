@@ -305,7 +305,8 @@ p {
     font-size: 14px;
 }
 
-.arrow-text>a:hover, .arrow-text>a:focus{
+.arrow-text>a:hover,
+.arrow-text>a:focus {
     color: black;
     background-color: #E5C643;
 }
@@ -339,6 +340,7 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
 .payday-heading {
     text-transform: uppercase;
     display: block;
@@ -348,7 +350,7 @@ p {
 }
 
 
-.rectangle3{
+.rectangle3 {
     width: 80%;
     position: absolute;
     top: 2.5%;
@@ -456,7 +458,7 @@ p {
     margin-bottom: 2em;
 }
 
-.store>a{
+.store>a {
     width: 50%;
 }
 
@@ -715,10 +717,10 @@ input:focus {
 .facebook>a:focus,
 .instagram>a:focus,
 .x>a:focus,
-.in>a:focus{
+.in>a:focus {
     transform: scale(1.4);
     transition: transform 1s;
-} 
+}
 
 .facebook:hover,
 .instagram:hover,
@@ -1083,7 +1085,7 @@ input:focus {
         margin: 0;
     }
 
-    .rectangle3{
+    .rectangle3 {
         width: 48%;
         position: absolute;
         top: 5%;
@@ -1190,10 +1192,10 @@ input:focus {
         margin-bottom: 2em;
     }
 
-    .store>a{
+    .store>a {
         width: 50%;
     }
-    
+
     .apple,
     .google {
         width: 100%;
@@ -1507,7 +1509,8 @@ input:focus {
     }
 }
 
-@media screen and (min-width:1051px) and (max-width:1600px){
+@media screen and (min-width:1051px) and (max-width:1600px) {
+
     /* Container width  */
     .container1 {
         max-width: 1600px;
@@ -1617,7 +1620,7 @@ input:focus {
         margin: 0 auto;
     }
 
-    .explore{
+    .explore {
         height: 90%;
         margin-top: auto;
         margin-bottom: auto;
@@ -1635,11 +1638,11 @@ input:focus {
         z-index: 1;
     }
 
-    .rectangle1{
+    .rectangle1 {
         max-width: 465px;
     }
 
-    .rectangle2{
+    .rectangle2 {
         max-width: 500px;
     }
 
@@ -1809,7 +1812,7 @@ input:focus {
         border-radius: 0;
     }
 
-    .star-place{
+    .star-place {
         height: 100%;
         width: auto;
     }
@@ -1846,7 +1849,7 @@ input:focus {
         position: relative;
     }
 
-    .rectangle3{
+    .rectangle3 {
         width: 60%;
         /* width: 90%; */
         position: absolute;
@@ -1958,10 +1961,10 @@ input:focus {
         font-size: 24px;
     }
 
-    .store>a{
+    .store>a {
         width: 50%;
     }
-    
+
     .apple,
     .google {
         width: 100%;
@@ -2116,12 +2119,12 @@ input:focus {
         color: #EBD96B;
     }
 
-    
+
 
     input:focus {
         font-size: 30px;
 
-    } 
+    }
 
     .join {
         background-color: #9c8000;
@@ -2512,7 +2515,7 @@ input:focus {
         margin: 0 auto;
     }
 
-    .explore{
+    .explore {
         height: 90%;
         margin-top: auto;
         margin-bottom: auto;
@@ -2530,11 +2533,11 @@ input:focus {
         z-index: 1;
     }
 
-    .rectangle1{
+    .rectangle1 {
         max-width: 465px;
     }
 
-    .rectangle2{
+    .rectangle2 {
         max-width: 500px;
     }
 
@@ -2704,7 +2707,7 @@ input:focus {
         border-radius: 0;
     }
 
-    .star-place{
+    .star-place {
         height: 100%;
         width: auto;
     }
@@ -2741,7 +2744,7 @@ input:focus {
         position: relative;
     }
 
-    .rectangle3{
+    .rectangle3 {
         width: 550px;
         /* width: 90%; */
         position: absolute;
@@ -2852,10 +2855,11 @@ input:focus {
         width: 70%;
         font-size: 24px;
     }
-    .store>a{
+
+    .store>a {
         width: 50%;
     }
-    
+
     .apple,
     .google {
         width: 100%;
@@ -3010,12 +3014,12 @@ input:focus {
         color: #EBD96B;
     }
 
-    
+
 
     input:focus {
         font-size: 30px;
 
-    } 
+    }
 
     .join {
         background-color: #9c8000;
@@ -3420,7 +3424,8 @@ form>h1 {
 
     div>input:focus,
     div>textarea:focus {
-        background-color: #E5C643;
+        box-shadow: 0 0 0 5px #E5C643;
+        border-radius: 3px;
     }
 
     form>h1 {
@@ -3492,7 +3497,8 @@ form>h1 {
 
     div>input:focus,
     div>textarea:focus {
-        background-color: #E5C643;
+        box-shadow: 0 0 0 5px #E5C643;
+        border-radius: 3px;
     }
 
     form>h1 {
